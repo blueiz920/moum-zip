@@ -5,4 +5,5 @@ export {
   parseSearchQueryState,
 } from "./model/search-params";
 export type { SearchQueryState } from "./model/types";
-export { SearchContentSection } from "./ui/space-search-sections";
+export { SearchContentLoadingFallback } from "./ui/space-search-loading-fallback";
+export { SearchContentSection, SearchDeferredContentSection } from "./ui/space-search-sections";
